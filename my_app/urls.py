@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-      # About page route
+    path('', views.index, name='index'),  # Map the root URL to the index view
 ]
